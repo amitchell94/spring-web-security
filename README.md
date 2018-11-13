@@ -18,12 +18,6 @@ In order to execute this program you will need have the Java JDK installed.
 
 The application can be run by packaging everything in a single, executable JAR file, driven by a Java `main()` method. Spring's support for embedding the Tomcat servlet container as the HTTP runtime can be used instead of deploying to an external instance.
 
-`src/main/java/hello/Application.java`
-
-```
-include::complete/src/main/java/hello/Application.java[]
-```
-
 Once the application starts up, point your browser to http://localhost:8080. You should see the home page.
 
 
